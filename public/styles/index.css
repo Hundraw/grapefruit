@@ -17,6 +17,20 @@
 
 body {
   min-height: 100vh;
+  /* /!\ DELETE THIS /!\ */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+figure {
+  text-align: center;
+}
+figure figcaption h1 {
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: xx-large;
 }
 
 /*# sourceMappingURL=index.css.map */
